@@ -1216,19 +1216,19 @@ void Mainprogram()
 	actaon[2] = 0;
 	actaon[3] = 0;
 	if (mkeytm <= 0) {
-	    if (CheckHitKey(KEY_INPUT_LEFT)
+	    if (CheckHitKey(KEY_INPUT_A)
 		&& keytm <= 0) {
 		actaon[0] = -1;
 		mmuki = 0;
 		actaon[4] = -1;
 	    }
-	    if (CheckHitKey(KEY_INPUT_RIGHT)
+	    if (CheckHitKey(KEY_INPUT_D)
 		&& keytm <= 0) {
 		actaon[0] = 1;
 		mmuki = 1;
 		actaon[4] = 1;
 	    }
-	    if (CheckHitKey(KEY_INPUT_DOWN)
+	    if (CheckHitKey(KEY_INPUT_S)
 		) {
 		actaon[3] = 1;
 	    }
