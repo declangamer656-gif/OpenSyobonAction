@@ -1038,7 +1038,7 @@ void rpaint()
 	    if (mainmsgtype == 1) {
 		DrawFormatString(126, 100,
 				 GetColor(255, 255, 255),
-				 "WELCOME TO OWATA ZONE");
+				 "WELCOME TO WARP ZONE");
 	    }
 	    if (mainmsgtype == 1) {
 		for (t2 = 0; t2 <= 2; t2++)
@@ -1123,7 +1123,7 @@ void rpaint()
 	}
 
 	setcolor(0, 0, 0);
-	str("Enterキーを押せ!!", 240 - 8 * 20 / 2, 250);
+	str("Press Enter!!", 240 - 8 * 20 / 2, 250);
 
     }
     ScreenFlip();
